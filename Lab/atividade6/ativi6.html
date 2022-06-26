@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Atividade 6</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="script.js"></script>
+</head>
+<body class="corpao">
+    <br><br>
+    <center><h1 class="textosite">FORMULÁRIO DE CADASTRO</h1></center>
+    <div class="circulo"></div>
+    <div class="fundo"></div>      
+    <img class="imagemprincipal" src="flamin.png" style="width:150px; height:150px ; margin-top:-250px ; ">
+
+    <br><br><br><br><br><br>
+    
+    <form class="formulario" action="clientes.php" method="post" onsubmit="return Cadastrar()">
+    <fieldset>
+        <legend>Cadastro de Clientes</legend>
+    <div>
+        <label for="nome">Nome</label><br>
+        <input type="text" name="nome" size="30" maxlength="50" id="nome" placeholder="Digite seu nome" required>
+    </div>
+    <br>
+    <div>
+        <label for="endereco">Endereço</label><br>
+        <input type="text" name="endereco" size="50" maxlength="50" id="endereco" placeholder="Digite seu endereço" required>
+    </div>
+    <br>
+    <div>
+        <label for="email">Email</label><br>
+        <input type="email" name="email" size="30" maxlength="30" id="email" placeholder="Digite seu email" required>
+    </div>
+    <br>
+    <div>
+    <input type="checkbox" name="news" id="news">
+    <label for="news">Desejo receber newsletter</label>
+    </div>
+    <br>
+    <div>
+        <button type="submit" id="cadastro">Cadastrar</button>
+        <button type="reset">Cancelar</button>
+    </div>
+</fieldset>
+
+</form>
+
+<br><br><br><br><br><br>
+
+</body>
+<style>
+    
+    .textosite
+    {
+        font-size:40px;
+        color: aliceblue;
+        background:linear-gradient(#d0293f, #760f18 );
+        border-radius: 20px;
+        margin-left:300px ;
+        margin-right:150px ;
+        padding:7px ;
+        position:relative ;
+    }
+     .imagemprincipal
+    {
+    mix-blend-mode:hard-light;
+    opacity:70.0% ;
+    position:relative;
+    left: 37px;
+    top: 5px;
+    }
+    .circulo
+    {
+    position: absolute;
+    width: 150px;
+    height: 140px;
+    left: 30px;
+    top: 30px;
+    border-radius: 50%;
+    border-color: #4500e6;
+    border:10px double;
+    background: linear-gradient(223.07deg, #d0293f 6.16%, #360409 86.6%);
+    }
+    .formulario
+    {
+        background-color:rgb(255, 255, 255);
+        margin-right: 650px;
+
+    }
+
+    .corpao
+    {
+    
+    box-sizing:border-box;
+    height:1440px ;
+    width:1080px ;
+    background:linear-gradient(#d0293f, #760f18 80%);
+    background-repeat: no-repeat;
+    background-size:cover;
+    }
+
+</style>
