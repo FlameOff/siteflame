@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cliente>
+<pessoa>
+<nome>Ana Maria Mariana</nome>
+<i>7 anos</i>
+</pessoa>
+<rec1>
+<uso1>Uso Interno</uso1>
+<remedio1>Xarope Sem Tosse</remedio1>
+<aplic1>1 colher 3x ao dia</aplic1>
+</rec1>
+<rec2>
+<uso2>Uso Externo</uso2>
+<remedio2>Gyellow</remedio2>
+<aplic2>aplicar no braço 1x ao dia ao deitar</aplic2>
+</rec2>
+</cliente>

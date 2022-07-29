@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pessoas>
+<ser1>
+<nome1>Alfredo da Silva</nome1>
+<endereco1>Brasil / RJ</endereco1>
+<casa1>Rua Luis da Cunha - 209</casa1>
+<work1>Pedreiro</work1>
+</ser1>
+<ser2>
+<nome2>Patrícia</nome2>
+<endereco2>Brasil / RJ</endereco2>
+<casa2>Bairro das Rosas</casa2>
+<work2>Professora de Admnistração</work2>
+</ser2>
+</pessoas>
